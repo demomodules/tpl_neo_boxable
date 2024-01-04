@@ -124,7 +124,11 @@
       <div class="pd_col_2">
         {if isset($PRODUCTS_DATE_AVAILABLE) && $PRODUCTS_DATE_AVAILABLE != ''}
           <div class="infomessage my_25">{$PRODUCTS_DATE_AVAILABLE}</div>
-        {else}
+        {/if}
+        {if defined($smarty.const.TPL_CONFIG_SHORTDESCRIPTION) && $smarty.const.TPL_CONFIG_SHORTDESCRIPTION == 'true'}
+          {if $PRODUCTS_SHORT_DESCRIPTION}<div class="mb_15">{$PRODUCTS_SHORT_DESCRIPTION}</div>{/if}
+        {/if}
+        {if !isset($PRODUCTS_DATE_AVAILABLE)}
           {if $SHIPPING_NAME}<div class="pd_heading_inforow"><strong>{#text_shippingtime#}</strong> {if $SHIPPING_IMAGE}<img src="{$SHIPPING_IMAGE}" alt="{$SHIPPING_NAME}" />{/if}{$SHIPPING_NAME_LINK}</div>{/if}
         {/if}
         {if "MODULE_TRAFFIC_LIGHTS_STATUS"|defined && $smarty.const.MODULE_TRAFFIC_LIGHTS_STATUS == 'true'}

@@ -21,6 +21,8 @@ define('THEME_COLOR_TITLE', 'Farbschema (Theme)');
 define('THEME_COLOR_DESC', 'Legen Sie hier die Farbgebung des Templates fest. Sie k&ouml;nnen unter templates/'.CURRENT_TEMPLATE.'/css/themes/ auch eigene Dateien anlegen. Diese werden dann automatisch hier zur Auswahl angezeigt.');
 define('TPL_CONFIG_BOXED_TITLE', '"Boxed"-Style');
 define('TPL_CONFIG_BOXED_DESC', 'Standardm&auml;&szlig;ig erstreckt sich das Template auf den meisten Ger&auml;ten &uuml;ber die gesamte Bildschirmbreite (maximal bis 1440px). Geschm&auml;cker sind bekanntlich verschieden. Wer lieber mit einer festen Breite arbeitet, kann das Template &uuml;ber diese Einstellung in eine Box von 1125px Breite "einschlie&szlig;en". Zudem wird ein Hintergrundbild eingeblendet.');
+define('TPL_CONFIG_SHORTDESCRIPTION_TITLE', 'Kurzbeschreibung auf Produktseite');
+define('TPL_CONFIG_SHORTDESCRIPTION_DESC', 'Nach Aktivierung dieser Einstellung wird die Kurzbeschreibung Ihres Produktes auf der Produktdetailseite zwischen Produkttitel und Warenkorb-Button eingeblendet. Diese sollte eine kurze Zusammenfassung darstellen und nicht der Hauptbeschreibung entsprechen.');
 define('CATEGORIES_CASE_TITLE', 'Kategorieart');
 define('CATEGORIES_CASE_DESC', 'Legen Sie hier fest, ob Sie ein Mega- oder Dropdown-Men&uuml; in der Desktop-Ansicht angezeigt bekommen m&ouml;chten.');
 define('CATEGORIES_HIDE_EMPTY_TITLE', 'Leere Kategorien ausblenden');
