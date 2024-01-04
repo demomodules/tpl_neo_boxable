@@ -1,0 +1,13 @@
+﻿/* boxed_style.css */
+
+body { background: url(img/std_bg.gif) #cccccc; }
+
+.layout_wrap,
+.layout_header_inner,
+.layout_categories_inner,
+.content_big,
+.admin_inner { max-width:1125px; }
+
+@media only screen and (min-width: 1124px) {
+  .layout_wrap { border: 1px solid #434343; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.51); margin: 0 auto; }
+}

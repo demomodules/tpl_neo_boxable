@@ -1,0 +1,52 @@
+{config_load file="$language/lang_$language.conf" section="boxes"}
+{config_load file="lang_`$language`.custom"}
+<div class="content_box">
+  <div class="content_box_header">{#footer_heading_payment#}</div>
+  <div class="content_box_payment cf">
+    {if defined($smarty.const.TPL_PAYMENT_PAYPAL) && $smarty.const.TPL_PAYMENT_PAYPAL == 'true' || !defined($smarty.const.TPL_PAYMENT_PAYPAL)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_paypal.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_MASTERCARD) && $smarty.const.TPL_PAYMENT_MASTERCARD == 'true' || !defined($smarty.const.TPL_PAYMENT_MASTERCARD)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_mastercard.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_VISA) && $smarty.const.TPL_PAYMENT_VISA== 'true' || !defined($smarty.const.TPL_PAYMENT_VISA)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_visa.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_AMEX) && $smarty.const.TPL_PAYMENT_AMEX == 'true' || !defined($smarty.const.TPL_PAYMENT_AMEX)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_amex.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_SEPA) && $smarty.const.TPL_PAYMENT_SEPA == 'true' || !defined($smarty.const.TPL_PAYMENT_SEPA)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_sepa.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_INVOICE) && $smarty.const.TPL_PAYMENT_INVOICE == 'true' || !defined($smarty.const.TPL_PAYMENT_INVOICE)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_invoice_{$language}.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_KLARNAINVOICE) && $smarty.const.TPL_PAYMENT_KLARNAINVOICE == 'true' || !defined($smarty.const.TPL_PAYMENT_KLARNAINVOICE)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_klarna.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_MONEYORDER) && $smarty.const.TPL_PAYMENT_MONEYORDER == 'true' || !defined($smarty.const.TPL_PAYMENT_MONEYORDER)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_moneyorder_{$language}.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_NACHNAHME) && $smarty.const.TPL_PAYMENT_NACHNAHME == 'true' || !defined($smarty.const.TPL_PAYMENT_NACHNAHME)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_nachnahme.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_EASYCREDIT) && $smarty.const.TPL_PAYMENT_EASYCREDIT == 'true' || !defined($smarty.const.TPL_PAYMENT_EASYCREDIT)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_easycredit.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_SOFORT) && $smarty.const.TPL_PAYMENT_SOFORT == 'true' || !defined($smarty.const.TPL_PAYMENT_SOFORT)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_sofort.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_CASH) && $smarty.const.TPL_PAYMENT_CASH == 'true' || !defined($smarty.const.TPL_PAYMENT_CASH)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_cash_{$language}.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_GIROPAY) && $smarty.const.TPL_PAYMENT_GIROPAY == 'true' || !defined($smarty.const.TPL_PAYMENT_GIROPAY)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_giropay.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_PAYONE) && $smarty.const.TPL_PAYMENT_PAYONE == 'true' || !defined($smarty.const.TPL_PAYMENT_PAYONE)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_payone.png" alt=""></span>
+    {/if}
+    {if defined($smarty.const.TPL_PAYMENT_PAYPAL_SOFORT) && $smarty.const.TPL_PAYMENT_PAYPAL_SOFORT == 'true' || !defined($smarty.const.TPL_PAYMENT_PAYPAL_SOFORT)}
+      <span><img class="lazyload" data-src="{$tpl_path}img/payment_icons/payment_icon_paypal_sofort.png" alt=""></span>
+    {/if}
+  </div>
+</div>
