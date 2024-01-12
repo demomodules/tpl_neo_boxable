@@ -3,6 +3,7 @@
 body { background: url(img/std_bg.gif) #cccccc; }
 
 .layout_wrap,
+.layout_topbar_inner,
 .layout_header_inner,
 .layout_categories_inner,
 .content_big,

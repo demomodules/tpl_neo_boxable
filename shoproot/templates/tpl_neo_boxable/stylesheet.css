@@ -1011,6 +1011,11 @@ h1.subline {
   border-style:solid;
   border-width: 0px 0px 0px 0px;
 }
+.layout_topbar_inner {
+  width:100%;
+  max-width:1440px;
+  margin: 0 auto;
+}
 .layout_topbar_inner_left {
   width:65%;
   text-align: left;
@@ -1729,10 +1734,6 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
   outline: 0 none;
 }
 
-.search_input ::-webkit-input-placeholder,
-.search_input ::-moz-placeholder, 
-.search_input :-ms-input-placeholder,
-.search_input :-moz-placeholder, 
 .sf_newsletter_input ::-webkit-input-placeholder,
 .sf_newsletter_input ::-moz-placeholder,
 .sf_newsletter_input :-ms-input-placeholder,
@@ -1742,6 +1743,14 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 .addquickie_input :-ms-input-placeholder,
 .addquickie_input :-moz-placeholder { 
   color: #666; 
+  font-style:italic; 
+  line-height:28px;
+}
+.search_input ::-webkit-input-placeholder,
+.search_input ::-moz-placeholder, 
+.search_input :-ms-input-placeholder,
+.search_input :-moz-placeholder { 
+  color: var(--search_toggle_color_placeholder, #666) !important;
   font-style:italic; 
   line-height:28px;
 }
@@ -8004,9 +8013,9 @@ p.underline {
 /* 47. END dsgvo */
 
 /* 48. START category flags */
-.categoryFlag1 {font-weight: 700;background: var(--module_color_1, #5cb85c) !important;font-size: 9px;padding: 0 4px !important;border-radius: 4px;color: #fff;position:absolute !important;right:auto;}
-.categoryFlag2 {font-weight: 700;background: var(--module_color_2, #f0ad4e) !important;font-size: 9px;padding: 0 4px !important;border-radius: 4px;color: #fff;position:absolute !important;right:auto;}
-.categoryFlag3 {font-weight: 700;background: var(--module_color_3, #d9534f) !important;font-size: 9px;padding: 0 4px !important;border-radius: 4px;color: #fff;position:absolute !important;right:auto;}
+.categoryFlag1 {font-weight: 700;background: var(--module_color_1, #5cb85c) !important;font-size: 9px;padding: 0 4px !important;border-radius: 4px;color: #fff;position:absolute !important;right:0;}
+.categoryFlag2 {font-weight: 700;background: var(--module_color_2, #f0ad4e) !important;font-size: 9px;padding: 0 4px !important;border-radius: 4px;color: #fff;position:absolute !important;right:0;}
+.categoryFlag3 {font-weight: 700;background: var(--module_color_3, #d9534f) !important;font-size: 9px;padding: 0 4px !important;border-radius: 4px;color: #fff;position:absolute !important;right:0;}
 .menu_items > li.level1 > a,
 .menu_items > li.level2 > a,
 .menu_items > li.level3 > a,

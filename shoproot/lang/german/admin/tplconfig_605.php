@@ -4,7 +4,7 @@
 #######################################
 
 define('BOX_CONFIGURATION_605', 'Sonstige Einstellungen');
-define('TPL_CONF_PAGEINFO', '<strong>Hier k&ouml;nnen Sie verschiedene Template-Verhalten definieren, z. B. ob Produkte in den Produktlisten bzw. auf der Startseite in einer Box oder in einer Liste angezeigt werden sollen.</strong><br><br>Dar&uuml;ber hinaus besteht die M&ouml;glichkeit, das Farbschema (Theme) des Templates zu &auml;ndern. <br><br>Beachten Sie bitte ggf. vorhandene Hinweise in den nachstehenden Beschreibungstexten.');
+define('TPL_CONF_PAGEINFO', '<strong>Hier k&ouml;nnen Sie verschiedene Template-Verhalten definieren, z. B. ob Produkte in den Produktlisten in einer Box oder in einer Liste angezeigt werden sollen.</strong><br><br>Dar&uuml;ber hinaus besteht die M&ouml;glichkeit, das Farbschema (Theme) des Templates zu &auml;ndern. <br><br>Beachten Sie bitte ggf. vorhandene Hinweise in den nachstehenden Beschreibungstexten.');
 define('SPECIALS_CATEGORIES_TITLE', '<i>Angebote</i> im Kategoriebaum');
 define('SPECIALS_CATEGORIES_DESC', 'M&ouml;chten Sie einen Link zu Ihren (Sonder-)Angeboten mit im Kategoriebaum der Kategoriebox aufnehmen? Bei "Nein" erscheinen Ihre Angebote in einer eigenen Box, sofern diese im Reiter "Boxen" aktiviert ist.');
 define('WHATSNEW_CATEGORIES_TITLE', '<i>Neue Artikel</i> im Kategoriebaum');

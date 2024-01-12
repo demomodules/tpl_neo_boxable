@@ -88,6 +88,7 @@
         file_put_contents(DIR_FS_CATALOG.'templates/'.CURRENT_TEMPLATE.'/stylesheet.min.css', '');
         file_put_contents(DIR_FS_CATALOG.'templates/'.CURRENT_TEMPLATE.'/css/tpl_plugins.min.css', '');        
         file_put_contents(DIR_FS_CATALOG.'templates/'.CURRENT_TEMPLATE.'/javascript/tpl_plugins.min.js', '');
+        $messageStack->add_session(MODULE_TPLCONFIG_SETTINGS_SAVED, 'success');
         xtc_redirect(xtc_href_link(FILENAME_TPLCONFIG, 'gID=' . (int)$_GET['gID']));
         break;
     }
@@ -215,9 +216,9 @@
                           $configuration_key_desc = encode_htmlentities($configuration_key_desc);
                         }
                         echo '<tr>
-                                <td class="dataTableConfig col-left">'.$configuration_key_title.'</td>
-                                <td class="dataTableConfig col-middle">'.str_replace('360px', '350px', $value_field).'</td>
-                                <td class="dataTableConfig col-right" style="text-align:justify;">'.$configuration_key_desc.'</td>
+                                <td class="dataTableConfig col-left" style="border-left: 1px solid #aaaaaa;">'.$configuration_key_title.'</td>
+                                <td class="dataTableConfig col-middle" style="border-left: 1px solid #aaaaaa;border-right: 1px solid #aaaaaa;">'.str_replace('360px', '350px', $value_field).'</td>
+                                <td class="dataTableConfig col-right" style="text-align:justify;border-right: 1px solid #aaaaaa;">'.$configuration_key_desc.'</td>
                               </tr>';
 
                       }

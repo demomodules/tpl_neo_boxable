@@ -11,3 +11,4 @@ define('BOX_TPLMANAGER_604', 'Texte');
 define('BOX_TPLMANAGER_605', 'Einstellungen');
 define('BOX_TPLMANAGER_606', 'Popup-Fenster');
 define('BOX_TPLMANAGER_607', 'Module');
+define('MODULE_TPLCONFIG_SETTINGS_SAVED', 'Ihre Einstellungen wurden erfolgreich gespeichert und der Template-Cache automatisch gel&ouml;scht.');

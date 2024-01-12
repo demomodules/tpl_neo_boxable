@@ -1,0 +1,102 @@
+﻿
+.layout_wrap.theme_dark,
+.layout_wrap.theme_dark ~ .copyright,
+.layout_wrap.theme_dark ~ .parseTime,
+.layout_wrap.theme_dark ~ .mm-ocd,
+.layout_wrap.theme_dark ~ #colorbox {
+
+  /* primary color */
+  --primary_color: #2E8B57;
+  
+  /* Header & navigation elements cart, wishlist, settings, account, menu */
+  --header_bg: #e7e7e7;
+  --header_menuitems_bg: #e7e7e7;
+  --header_menuitems_color: #5c5c5c;
+  --header_menuitems_border: #5c5c5c;
+  --header_menuitems_bg_hover: #e7e7e7;
+  --header_menuitems_color_hover: #333333;
+  --header_menuitems_border_hover: #333333;
+
+  /* Count for cart and wishlist */ 
+  --count_cart_wishlist_color: #fff;
+  --count_cart_wishlist_bg: #5c5c5c;
+
+  /* Header search */
+  --search_toggle_bg: #e9f1f8; 
+  --search_toggle_input_border: #434343; 
+  --search_toggle_input_bg: #5c5c5c; 
+  --search_toggle_color_select: #fff; 
+  --search_toggle_color_placeholder: #eee; 
+  --search_toggle_color_input: #fff; 
+  --search_toggle_color_help: #eee; 
+  --search_toggle_color_button: #fff; 
+
+  /* Categories menu */   
+  --categoriesmenu_bg: #5c5c5c; 
+  --categoriesmenu_border: #434343; 
+  --categoriesitems_level1_color: #fff; 
+  --categoriesitems_level1_bg_hover: rgba(255,255,255,0.2);
+  --categoriesitems_level1_color_hover: #fff; 
+  --categoriesitems_level1_color_selected: #d0e0ef;
+  --categoriesitems_level2_selected: #5c5c5c;
+  --categoriesitems_overview_color_selected: #5c5c5c;
+
+  /* Left submenu selected */
+  --subcatsmenu_color_selected: #5c5c5c; 
+  
+  /* Mobile mmenu selected */
+  --mobilemenu_color_selected: #5c5c5c; 
+
+  /* Right content menu selected */
+  --contentboxlist_color_selected: #5c5c5c; 
+
+  /* Left account menu selected */
+  --account_navigation_selected: #5c5c5c; 
+
+  /* Main Buttons */
+  --button1_background: #444;  
+  --button1_border: rgba(0,0,0,0.1);
+  --button1_color: #fff; 
+
+  --button2_background: #5c5c5c;  
+  --button2_border: rgba(0,0,0,0.1); 
+  --button2_color: #fff; 
+
+  /* Prices */
+  --price_default_color: #333; 
+  --price_new_color: #c4342d; 
+  --price_old_color: #666; 
+  --price_save_bg: #c4342d; 
+  --price_save_color: #fff; 
+
+  /* Toogle menu closer */  
+  --toggle_menu_closer_bg: #5c5c5c;
+  --toggle_menu_closer_color: #eee;
+  
+  /* Subfooter */  
+  --subfooter_bg: #5c5c5c; 
+  --subfooter_color_title: #fff; 
+  --subfooter_color_text: #fff;
+
+  /* Footer */
+  --footer_bg: #434343; 
+  --footer_box_header: #fff;   
+  --footer_box_text: #eee;   
+  --footer_link_color: #fff;  
+  --footer_link_color_underline: #ccc;  
+  --footer_payment_icons_bg: rgba(255,255,255,0.8);  
+  --footer_social_icons: #fff;  
+  --footer_social_icons_hover: #d0e0ef;  
+  --footer_copyright: #ddd;  
+  --footer_copyright_border: #ddd;  
+
+  /* Headings */
+  --global_heading_color: #5c5c5c;  
+  
+  /* Module colors */
+  --module_color_1: #2E8B57;
+  --module_color_2: #FFBF00;
+  --module_color_3: #C4342D;
+
+}
+
