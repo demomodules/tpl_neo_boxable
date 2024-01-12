@@ -6957,9 +6957,9 @@ ul#checkoutnavigation li .selected .number {
   margin: 10px 0 0 0;
   font-weight:400;
 }
-.checkoutconditions strong {
+/*.checkoutconditions strong {
   font-weight:400;
-}
+}*/
 .checkout_box {
   margin: 0px 0px 15px 0px;
   overflow:hidden;
