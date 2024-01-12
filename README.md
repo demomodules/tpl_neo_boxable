@@ -1,20 +1,23 @@
-# CHANGELOG
+# TEMPLATE: NEO (Boxable)
+Alternatives Template für die modified-Shopversion 3.0.0 (ff)
 
-## seit TPL-Version 1.0.2
+## CHANGELOG
+
+### seit TPL-Version 1.0.2
 
 - Update-Funktion im System-Modul
 - neues Theme "dark"
 - Zahlungsweisen im Footer verlinkbar
 - Template-Korrekturen laut Wiki bis XX.01.2024
 
-## seit TPL-Version 1.0.1
+### seit TPL-Version 1.0.1
 
 - neue Einstellung "Kurzbeschreibung auf Produktdetailseite"
 - CSS-Korrekturen ("zerbröselte Ansicht")
 - Template-Korrekturen laut Wiki bis 04.01.2024 (Schnellkauf-Link im Warenkorb)
 - Beispielwerte im Installer (Telefon, E-Mail) escaped
 
-## seit TPL-Version 1.0.0
+### seit TPL-Version 1.0.0
 
 - Boxen (de-)aktivieren
 - Social Media Icons (de-)aktivieren und verlinken
