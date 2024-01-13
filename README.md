@@ -1,5 +1,5 @@
 # TEMPLATE: NEO (Boxable)
-Alternatives Template für die modified-Shopversion 3.0.0 (ff)
+Alternatives Template für die modified eCommerce Shopsoftware ab Shopversion 3.0.0, basierend auf dem neuen Standard-Template NOVA, inkl. Template-Manager
 
 ## CHANGELOG
 
@@ -7,15 +7,16 @@ Alternatives Template für die modified-Shopversion 3.0.0 (ff)
 
 - Update-Funktion im System-Modul
 - neues Theme "dark"
+- Integration: Themenwelten-Modul
 - Zahlungsweisen im Footer verlinkbar
-- Template-Korrekturen laut Wiki bis XX.01.2024
+- Template-Korrekturen laut Wiki bis XX.01.2024 (21.17 - 21.18)
 
 ### seit TPL-Version 1.0.1
 
 - neue Einstellung "Kurzbeschreibung auf Produktdetailseite"
 - CSS-Korrekturen ("zerbröselte Ansicht")
-- Template-Korrekturen laut Wiki bis 04.01.2024 (Schnellkauf-Link im Warenkorb)
-- Beispielwerte im Installer (Telefon, E-Mail) escaped
+- Beispielwerte im System-Modul (Telefon, E-Mail) escaped
+- Template-Korrekturen laut Wiki bis 04.01.2024 (21.16)
 
 ### seit TPL-Version 1.0.0
 
@@ -27,3 +28,4 @@ Alternatives Template für die modified-Shopversion 3.0.0 (ff)
 - zuschaltbare Module (Lagerampel, Kategorie-Flaggen, Attributauswahl als Pflichtfeld)
 - diverse Einstellungen (Theme, Box-Ansicht, Kategorie-Steuerung, Artikeldarstellung, u. a.)
 - automatisches Löschen des Templates-Caches nach Speichervorgang im TPLManager
+- Template-Korrekturen laut Wiki bis 30.12.2023 (21.1 - 21.15)

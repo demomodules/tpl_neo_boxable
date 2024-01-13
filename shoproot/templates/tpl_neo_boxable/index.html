@@ -245,7 +245,7 @@
 
         {if isset($MODULE_upcoming_products)}{$MODULE_upcoming_products}{/if}
         {if isset($MODULE_new_products)}{$MODULE_new_products}{/if}
-        {if isset($main_content)}{$main_content}{/if}
+        {if isset($main_content)}{$main_content|contentenhancer}{/if}
         {if isset($box_REVIEWS)}{$box_REVIEWS}{/if}
         {if isset($box_BESTSELLERS)}{$box_BESTSELLERS}{/if}
 
@@ -269,7 +269,7 @@
         
         {if isset($CUSTOMERNOTICE)}{$CUSTOMERNOTICE}{/if}
 
-        {if isset($main_content)}{$main_content}{/if}
+        {if isset($main_content)}{$main_content|contentenhancer}{/if}
         {if isset($box_LAST_VIEWED)}{$box_LAST_VIEWED}{/if}
         {if isset($box_BESTSELLERS)}{$box_BESTSELLERS}{/if}
         {if isset($box_WHATSNEW)}{$box_WHATSNEW}{/if}
@@ -304,7 +304,7 @@
           {/if}
 
           <div class="flex_listing_products">
-            {if isset($main_content)}{$main_content}{/if}
+            {if isset($main_content)}{$main_content|contentenhancer}{/if}
           </div>
         </div>
 
@@ -323,7 +323,7 @@
       </div>
       
       <div class="content_full">
-        {if isset($main_content)}{$main_content}{/if}
+        {if isset($main_content)}{$main_content|contentenhancer}{/if}
         {if isset($box_LAST_VIEWED)}
           <div class="content_big">
             {$box_LAST_VIEWED}
@@ -347,7 +347,7 @@
         <div class="flex_content_row">
           <div class="flex_content_col_1">
             <div class="content_site cf">
-              {if isset($main_content)}{$main_content}{/if}
+              {if isset($main_content)}{$main_content|contentenhancer}{/if}
             </div>
           </div>
 
@@ -373,7 +373,7 @@
         
         {if isset($CUSTOMERNOTICE)}{$CUSTOMERNOTICE}{/if}
 
-        {if isset($main_content)}{$main_content}{/if}
+        {if isset($main_content)}{$main_content|contentenhancer}{/if}
                 
         {if isset($box_XSELL)}{$box_XSELL}{/if}
         {if isset($box_LAST_VIEWED)}{$box_LAST_VIEWED}{/if}
