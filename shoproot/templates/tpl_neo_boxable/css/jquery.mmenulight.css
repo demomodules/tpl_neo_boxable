@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Mmenu Light
  * mmenujs.com/mmenu-light
  * Version 3.2.2
@@ -19,13 +19,12 @@
   height:30px;
   background: var(--toggle_menu_closer_bg, #eee);
   color: var(--toggle_menu_closer_color, #555);
-  position:absolute;
-  top:0px;
-  right:0px;
+  position:relative;
   font-size:20px;
   line-height:30px;
   text-align:center;
   border-radius:4px;
+  margin-left: auto;
 }
 
 body.mm-ocd-opened {

@@ -114,11 +114,11 @@
           {if $smarty.const.HEADER_SHOW_MANUFACTURERS == 'true'}
             {if isset($box_MANUFACTURERS)}{$box_MANUFACTURERS}{/if}
           {/if}
-          {if $smarty.const.SPECIALS_EXISTS === true}
-            <li class="level1{if strpos($smarty.server.PHP_SELF, $smarty.const.FILENAME_SPECIALS) !== false} active1{/if}"><a title="{#link_specials#}" href="{$smarty.const.FILENAME_SPECIALS|xtc_href_link}">{#link_specials#}{if "MODULE_CATEGORIES_FLAG_STATUS"|defined && $smarty.const.MODULE_CATEGORIES_FLAG_SPECIALS == 'true'}<span class="categoryFlag3">{$smarty.const.CATEGORIES_FLAG_3}</span>{/if}</a></li>
+          {if $smarty.const.SPECIALS_CATEGORIES == 'true'}
+            {if $smarty.const.SPECIALS_EXISTS === true}<li class="level1{if strpos($smarty.server.PHP_SELF, $smarty.const.FILENAME_SPECIALS) !== false} active1{/if}"><a title="{#link_specials#}" href="{$smarty.const.FILENAME_SPECIALS|xtc_href_link}">{#link_specials#}{if "MODULE_CATEGORIES_FLAG_STATUS"|defined && $smarty.const.MODULE_CATEGORIES_FLAG_SPECIALS == 'true'}<span class="categoryFlag3">{$smarty.const.CATEGORIES_FLAG_3}</span>{/if}</a></li>{/if}
           {/if}
-          {if $smarty.const.WHATSNEW_EXISTS === true}
-            <li class="level1{if strpos($smarty.server.PHP_SELF, $smarty.const.FILENAME_PRODUCTS_NEW) !== false} active1{/if}"><a title="{#link_whatsnew#}" href="{$smarty.const.FILENAME_PRODUCTS_NEW|xtc_href_link}">{#link_whatsnew#}{if "MODULE_CATEGORIES_FLAG_STATUS"|defined && $smarty.const.MODULE_CATEGORIES_FLAG_NEWPRODUCTS == 'true'}<span class="categoryFlag1">{$smarty.const.CATEGORIES_FLAG_1}</span>{/if}</a></li>
+          {if $smarty.const.WHATSNEW_CATEGORIES == 'true'}
+            {if $smarty.const.WHATSNEW_EXISTS === true}<li class="level1{if strpos($smarty.server.PHP_SELF, $smarty.const.FILENAME_PRODUCTS_NEW) !== false} active1{/if}"><a title="{#link_whatsnew#}" href="{$smarty.const.FILENAME_PRODUCTS_NEW|xtc_href_link}">{#link_whatsnew#}{if "MODULE_CATEGORIES_FLAG_STATUS"|defined && $smarty.const.MODULE_CATEGORIES_FLAG_NEWPRODUCTS == 'true'}<span class="categoryFlag1">{$smarty.const.CATEGORIES_FLAG_1}</span>{/if}</a></li>{/if}
           {/if}
         </ul>
       </div>
@@ -437,13 +437,15 @@
         <div id="menu_closer"><i class="fa-solid fa-xmark"></i></div>
         <ul class="mobile_menu">
           {$box_CATEGORIES|replace:"<div class=\"mega_menu\">":""|replace:"</div>":""|replace:"<span class=\"categoryFlag1\">{$smarty.const.CATEGORIES_FLAG_1}</span>":""|replace:"<span class=\"categoryFlag2\">{$smarty.const.CATEGORIES_FLAG_2}</span>":""|replace:"<span class=\"categoryFlag3\">{$smarty.const.CATEGORIES_FLAG_3}</span>":""}
-          {if isset($box_MANUFACTURERS)}{$box_MANUFACTURERS|replace:"<div class=\"mega_menu\">":""|replace:"</div>":""}{/if}
-          {if $smarty.const.SPECIALS_CATEGORIES === true}
+          {if $smarty.const.HEADER_SHOW_MANUFACTURERS == 'true'}
+            {if isset($box_MANUFACTURERS)}{$box_MANUFACTURERS|replace:"<div class=\"mega_menu\">":""|replace:"</div>":""}{/if}
+          {/if}
+          {if $smarty.const.SPECIALS_CATEGORIES == 'true'}
             {if $smarty.const.SPECIALS_EXISTS === true}
               <li class="level1{if strpos($smarty.server.PHP_SELF, $smarty.const.FILENAME_SPECIALS) !== false} active1{/if}"><a title="{#link_specials#}" href="{$smarty.const.FILENAME_SPECIALS|xtc_href_link}">{#link_specials#}</a></li>
             {/if}
           {/if}
-          {if $smarty.const.WHATSNEW_CATEGORIES === true}
+          {if $smarty.const.WHATSNEW_CATEGORIES == 'true'}
             {if $smarty.const.WHATSNEW_EXISTS === true}
               <li class="level1{if strpos($smarty.server.PHP_SELF, $smarty.const.FILENAME_PRODUCTS_NEW) !== false} active1{/if}"><a title="{#link_whatsnew#}" href="{$smarty.const.FILENAME_PRODUCTS_NEW|xtc_href_link}">{#link_whatsnew#}</a></li>
             {/if}

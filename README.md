@@ -7,9 +7,11 @@ Alternatives Template für die modified eCommerce Shopsoftware ab Shopversion 3.
 
 - Update-Funktion im System-Modul
 - neues Theme "dark"
-- Integration: Themenwelten-Modul
-- Zahlungsweisen im Footer verlinkbar
-- Template-Korrekturen laut Wiki bis XX.01.2024 (21.17 - 21.18)
+- Integration: Themenwelten-Modul XXX
+- Zahlungsweisen im Footer verlinkbar XXX
+- Direktverlinkung auf Seiten bei Deaktivierung von Boxen (login.php, shopping_cart.php, etc.) XXX
+- Minuszeichen für prozentualen Rabatt auf Produktdetailseite ergänzt
+- Template-Korrekturen laut Wiki bis XX.01.2024 (21.17 - 21.18, 22.1, 23.1, geplante Features)
 
 ### seit TPL-Version 1.0.1
 
